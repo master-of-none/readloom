@@ -1,0 +1,45 @@
+# === Node.js / Next.js ===
+frontend/node_modules/
+frontend/.next/
+frontend/.env*
+frontend/.vercel/
+frontend/.turbo/
+frontend/.swc/
+frontend/coverage/
+
+# Optional: if you use pnpm or yarn
+frontend/pnpm-lock.yaml
+frontend/yarn.lock
+
+# Optional: local dev db or debug stuff
+frontend/.DS_Store
+frontend/.log
+frontend/npm-debug.log*
+
+# === Clojure ===
+backend/.cpcache/
+backend/target/
+backend/.lein-repl-history
+backend/.nrepl-port
+
+# Optional: if using REBL or other tools
+backend/.lsp/.cache/
+backend/.lsp/sqlite.db
+backend/.dir-locals.el
+
+# === OS/system files ===
+*.DS_Store
+*.log
+*.tmp
+*.bak
+Thumbs.db
+
+# === Global IDE files ===
+.vscode/
+.idea/
+*.iml
+
+# === Misc ===
+*.env
+*.log
+.envrc

@@ -89,4 +89,4 @@ Update your DB connection in `backend/src/readloom/db.clj`.
 
 ## 📜 License
 
-MIT
+[MIT](https://github.com/master-of-none/readloom/blob/main/LICENSE)
